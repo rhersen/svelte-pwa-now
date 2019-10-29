@@ -5,6 +5,7 @@
   "main": " ",
   "scripts": {
     "build": "rollup -c",
+    "postbuild": "cd functions/announcements && npm install",
     "build:auto": "rollup -c -w",
     "serve": "sirv dist",
     "serve:dev": "sirv dist --dev",
