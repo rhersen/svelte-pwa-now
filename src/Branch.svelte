@@ -50,7 +50,7 @@
 
   rect.branch {
     fill: #000;
-    stroke: red;
+    stroke: darkslategray;
     stroke-width: 0.02px
   }
 
